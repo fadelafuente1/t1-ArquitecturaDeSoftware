@@ -1,0 +1,9 @@
+<h1>{{ comment.comment_text }}</h1>
+<ul>
+  <li>{{comment.sender_ip}}</li>
+  <li>{{comment.comment_date}}</li>
+</ul>
+<a href="{%url 'comments:index'%}">Back</a>
+<a href="{%url 'comments:edit' comment_id=comment.id%}">Edit</a>
+
+

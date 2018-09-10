@@ -1,0 +1,7 @@
+
+<form method="post">
+  {% csrf_token %}
+    <label for="comment_text"> Comment: </label>
+    <input type="text" id="comment_text" name="comment_text" maxlength="200" required>
+    <input type="submit" value="Editar">
+  </form>
