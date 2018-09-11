@@ -1,5 +1,5 @@
 {%if error_message%}<p><strong>{{error_message}}</strong></p>{%endif%}
-
+<h1>New comment form</h1>
 <form action="{% url 'comments:create'%}" method="post">
   {% csrf_token %}
     <label for="comment_text"> Comment: </label>
