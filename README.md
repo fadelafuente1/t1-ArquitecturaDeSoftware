@@ -13,23 +13,23 @@
 - guarnicorn
 ## Instalación de dependencias
 
-´´´
+```
 brew install python3
 pip install django
 pip install psycopg2
 pip install virtualenv
 pip install nginx
 pip install guarnicorn
-´´´
+```
 
 ## Testeo en development
 Dentro de t1-ArquitecturaDeSoftware
-´´´
+```
 python3 manage.py migrate
 python3 manage.py runserver
-´´´
+```
 ## Actualización en servidor
 Ante cualquier cambio:
-´´´
+```
 sudo systemctl restart gunicorn
-´´´
+```
