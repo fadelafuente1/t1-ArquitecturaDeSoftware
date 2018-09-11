@@ -10,7 +10,7 @@ from .forms import CommentForm
 
 
 def index(request):
-  latest_comment_list = Comment.objects.order_by('-comment_date')[:5]
+  latest_comment_list = Comment.objects.order_by('-comment_date')[:10]
   context = {'latest_comment_list': latest_comment_list}
   return render(request, 'comments/index.html', context)
 

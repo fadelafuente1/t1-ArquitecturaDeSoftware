@@ -23,7 +23,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = 'qrz(0*c2^ci#v%2u=#x($p&5ze%7s**n+rpy%v&1o9p@g7@)bw'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = ['charette10.ing.puc.cl']
 
